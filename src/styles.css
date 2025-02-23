@@ -1,0 +1,43 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 24px;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-image: url("./night.jpg");
+    background-size: cover;
+}
+.widget{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+input{
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgba(57,58,60,0.3);
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+
+.widget > * {
+    color: white;
+}
